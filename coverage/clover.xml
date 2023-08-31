@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1693448256832" clover="3.2.0">
-  <project timestamp="1693448256832" name="All files">
+<coverage generated="1693448457574" clover="3.2.0">
+  <project timestamp="1693448457574" name="All files">
     <metrics statements="14" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1" elements="17" coveredelements="14" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
     <file name="utils.ts" path="/Users/scoheart/depanlz/packages/@depanlz/core/src/utils.ts">
       <metrics statements="14" coveredstatements="12" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>

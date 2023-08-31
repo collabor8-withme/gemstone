@@ -1,5 +1,13 @@
 # @depanlz/cli
 
+## 0.0.1-alpha.2
+
+### Patch Changes
+
+- modify README.md content
+- Updated dependencies
+  - @depanlz/core@0.0.1-alpha.2
+
 ## 0.0.1-alpha.1
 
 ### Patch Changes
