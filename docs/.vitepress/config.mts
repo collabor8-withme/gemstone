@@ -1,6 +1,5 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "DepAnlz 📦",
   description: "A CLI for analyzing NPM dependencies",
@@ -35,7 +34,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/collabor8-withme/depanlz' }
     ]
   }
 })

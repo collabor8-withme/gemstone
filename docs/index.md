@@ -10,10 +10,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /markdown-examples
+      link: /guide/getting-started
     - theme: alt
       text: Github
-      link: /api-examples
+      link: https://github.com/collabor8-withme/depanlz
 
 features:
   - title: "@depanlz/cli"
