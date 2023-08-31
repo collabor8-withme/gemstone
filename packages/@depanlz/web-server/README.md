@@ -3,7 +3,6 @@
 
 ## 通过CLI工具使用
 ### 下载
-::: code-group
 
 ```sh [npm]
 $ npm install -D @depanlz/cli @depanlz/core @depanlz/web-servrer
@@ -16,10 +15,8 @@ $ pnpm add -D @depanlz/cli @depanlz/core @depanlz/web-servrer
 ```sh [yarn]
 $ yarn add -D @depanlz/cli @depanlz/core @depanlz/web-servrer 
 ```
-:::
 
 ### 配置CLI选项
-::: code-group
 
 ```sh [npm]
 $ npx depanlz analyze -w 3000
@@ -33,12 +30,8 @@ $ pnpm depanlz analyze -w 3000
 $ yarn depanlz analyze -w 3000
 ```
 
-:::
-
 ## 增强core模块功能
 ### 下载
-::: code-group
-
 ```sh [npm]
 $ npm install @depanlz/core @depanlz/web-servrer
 ```
@@ -50,7 +43,6 @@ $ pnpm add @depanlz/core @depanlz/web-servrer
 ```sh [yarn]
 $ yarn add @depanlz/core @depanlz/web-servrer 
 ```
-:::
 
 ### 编写增强功能代码
 ``` typescript

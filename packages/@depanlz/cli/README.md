@@ -3,8 +3,6 @@
 
 ## 快速上手
 ### 下载CLI工具包以及core模块
-::: code-group
-
 ```sh [npm]
 $ npm install -D @depanlz/cli @depanlz/core
 ```
@@ -17,12 +15,7 @@ $ pnpm add -D @depanlz/cli @depanlz/core
 $ yarn add -D @depanlz/cli @depanlz/core 
 ```
 
-:::
-
-
-
 ### 通过命令行使用命令
-::: code-group
 
 ```sh [npm]
 $ npx depanlz analyze
@@ -36,14 +29,9 @@ $ pnpm depanlz analyze
 $ yarn depanlz analyze 
 ```
 
-:::
-
-
 ### 全局可选项
 #### `-V`, `--version`
 通过该参数可以查看 `@depanlz/cli` 的版本
-
-::: code-group
 
 ```sh [npm]
 $ npx depanlz -V
@@ -57,12 +45,8 @@ $ pnpm depanlz -V
 $ yarn depanlz -V
 ```
 
-:::
-
 #### `-h`, `--help`
 通过该参数可以查看 `@depanlz/cli` 的命令帮助
-
-::: code-group
 
 ```sh [npm]
 $ npx depanlz -h
@@ -75,15 +59,10 @@ $ pnpm depanlz -h
 ```sh [yarn]
 $ yarn depanlz -h
 ```
-
-:::
-
 ### analyze 命令可选项
 
 #### `-j`, `--json` [file-path]
 通过该参数可以通过CLI生成一个项目依赖关系的JSON文件。
-
-::: code-group
 
 ```sh [npm]
 $ npx depanlz analyze -j
@@ -97,12 +76,8 @@ $ pnpm depanlz analyze -j
 $ yarn depanlz analyze -j
 ```
 
-:::
-
 #### `-w`, `--web` [port]
 通过该参数可以通过CLI启动一个web server，同时通过echarts渲染可视化依赖关系图。
-
-::: code-group
 
 ```sh [npm]
 $ npx depanlz analyze -w
@@ -116,11 +91,8 @@ $ pnpm depanlz analyze -w
 $ yarn depanlz analyze -w
 ```
 
-:::
-
 #### `-h`, `--help`
 通过该参数可以查看 `analyze` 命令的所有可选配置
-::: code-group
 
 ```sh [npm]
 $ npx depanlz analyze -h
@@ -133,5 +105,3 @@ $ pnpm depanlz analyze -h
 ```sh [yarn]
 $ yarn depanlz analyze -h
 ```
-
-:::

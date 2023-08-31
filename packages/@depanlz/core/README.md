@@ -16,7 +16,6 @@ declare class DepAnlz {
 
 ## 快速上手
 ### 下载
-::: code-group
 
 ```sh [npm]
 $ npm install @depanlz/core
@@ -29,7 +28,6 @@ $ pnpm add @depanlz/core
 ```sh [yarn]
 $ yarn add @depanlz/core 
 ```
-:::
 
 ### 构建实例
 有关 `typescript` 的类型声明
