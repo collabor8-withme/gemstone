@@ -20,7 +20,7 @@
     "@depanlz/core": "0.0.1-alpha.2"
   },
   "devDependencies": {
-    "@depanlz/core": "workspace:^0.0.1-alpha.2",
-    "@depanlz/web-server": "workspace:^0.0.1-alpha.2"
+    "@depanlz/core": "workspace:0.0.1-alpha.2",
+    "@depanlz/web-server": "workspace:0.0.1-alpha.2"
   }
 }
