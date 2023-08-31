@@ -1,0 +1,15 @@
+{
+  "name": "@depanlz/web-server",
+  "version": "0.0.1-alpha.1",
+  "description": "",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./index.d.ts",
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}

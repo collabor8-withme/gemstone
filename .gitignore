@@ -1,0 +1,7 @@
+node_modules
+.DS_Store
+.idea
+.rollup.cache
+docs/.vitepress/dist
+docs/.vitepress/cache
+packages/@depanlz/*/dist

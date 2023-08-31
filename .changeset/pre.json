@@ -1,0 +1,12 @@
+{
+  "mode": "pre",
+  "tag": "alpha",
+  "initialVersions": {
+    "@depanlz/cli": "0.0.1-alpha.0",
+    "@depanlz/core": "0.0.1-alpha.0",
+    "@depanlz/web-server": "0.0.1-alpha.0"
+  },
+  "changesets": [
+    "quiet-moons-shop"
+  ]
+}
