@@ -83,7 +83,7 @@ function analyze(argument: Array<string>) {
         success(`Dependency analysis file are created in
         ${filePath}`);
     } else if (webFlag && !jsonFlag) {
-        import("@depche/web-server").then(module => {
+        import("@depanlz/web-server").then(module => {
             const { webServer } = module;
             webServer.prototype.PORT = PORT;
             depanlz.postHook(webServer);
@@ -93,7 +93,7 @@ function analyze(argument: Array<string>) {
         writeFileSync(filePath, json);
         success(`Dependency analysis file are created in
         ${filePath}\n`);
-        import("@depche/web-server").then(module => {
+        import("@depanlz/web-server").then(module => {
             const { webServer } = module;
             webServer.prototype.PORT = PORT;
             depanlz.postHook(webServer);

@@ -7,9 +7,9 @@ function analyzeConsole() {
     success('==================================\n');
     log('Usage: depanlz analyze [options]\n');
     log("Options:");
-    log('   -j, --json                             Show the version number');
-    log('   -h, --help                             Display help for command');
-    log('   -w, --web                              Start a web server for check dependencies\n');
+    log('   -j, --json [file-path]                 Output dependency graph as a json file');
+    log('   -w, --web [port]                       Start a web server to render dependency graph');
+    log('   -h, --help                             Display help for command\n');
 }
 
 export default analyzeConsole;

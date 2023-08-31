@@ -1,6 +1,6 @@
 {
   "name": "@depanlz/cli",
-  "version": "0.0.1-alpha.3",
+  "version": "0.0.1-alpha.9",
   "description": "depanlz is a dependencies analyze tool",
   "main": "./bin/depanlz.cjs",
   "type": "module",
@@ -17,10 +17,10 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@depanlz/core": "0.0.1-alpha.3"
+    "@depanlz/core": "0.0.1-alpha.9"
   },
   "devDependencies": {
-    "@depanlz/core": "workspace:0.0.1-alpha.3",
-    "@depanlz/web-server": "workspace:0.0.1-alpha.3"
+    "@depanlz/core": "workspace:0.0.1-alpha.9",
+    "@depanlz/web-server": "workspace:0.0.1-alpha.9"
   }
 }

@@ -86,7 +86,7 @@ function webServer(config: Config, depGraph: DepGraph): any {
     };
 
     const str = JSON.stringify(option, null, 2);
-    const PORT = webServer.prototype.PORT;
+    const PORT = webServer.prototype.PORT | 3100;
     http.createServer((req, res) => {
 
         const html = `

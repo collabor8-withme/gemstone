@@ -14,16 +14,18 @@ function output(pkg) {
                 {
                     file: `./packages/@depanlz/${pkg}/dist/index.cjs`,
                     format: 'cjs',
-                    sourcemap: true
                 },
                 {
                     file: `./packages/@depanlz/${pkg}/dist/index.mjs`,
                     format: 'esm',
-                    sourcemap: true
                 }
             ],
             plugins: [
-                typescript(),
+                typescript({
+                    compilerOptions: {
+                        declarationDir: `./packages/@depanlz/${pkg}/dist/`
+                    }
+                }),
                 json(),
                 resolve()
             ],
