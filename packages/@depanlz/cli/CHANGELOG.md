@@ -1,5 +1,13 @@
 # @depanlz/cli
 
+## 0.0.1-alpha.3
+
+### Patch Changes
+
+- fix package reference errors
+- Updated dependencies
+  - @depanlz/core@0.0.1-alpha.3
+
 ## 0.0.1-alpha.2
 
 ### Patch Changes

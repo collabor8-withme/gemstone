@@ -1,5 +1,5 @@
 import { join } from 'path';
-import { DepAnlz } from '@depche/core';
+import { DepAnlz } from '@depanlz/core';
 import analyzeConsole from '../console/analyzeConsole';
 import { stringifyGraph, ObjifyGraph } from './transformGraph';
 import { writeFileSync } from 'fs';

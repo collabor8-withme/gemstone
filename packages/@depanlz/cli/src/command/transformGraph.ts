@@ -1,4 +1,4 @@
-import { DepGraph, DepNode, DepRel } from "@depche/core";
+import { DepGraph, DepNode, DepRel } from "@depanlz/core";
 
 type DependenciesTree = {
     name: string,

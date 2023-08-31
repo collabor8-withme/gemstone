@@ -2,6 +2,8 @@ node_modules
 .DS_Store
 .idea
 .rollup.cache
+coverage
+.changeset
 docs/.vitepress/dist
 docs/.vitepress/cache
 packages/@depanlz/*/dist
