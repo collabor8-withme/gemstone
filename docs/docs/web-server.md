@@ -6,15 +6,15 @@
 ::: code-group
 
 ```sh [npm]
-$ npm install -D @depanlz/cli @depanlz/core @depanlz/web-servrer
+$ npm install -D @depanlz/cli @depanlz/core @depanlz/web-server
 ```
 
 ```sh [pnpm]
-$ pnpm add -D @depanlz/cli @depanlz/core @depanlz/web-servrer
+$ pnpm add -D @depanlz/cli @depanlz/core @depanlz/web-server
 ```
 
 ```sh [yarn]
-$ yarn add -D @depanlz/cli @depanlz/core @depanlz/web-servrer 
+$ yarn add -D @depanlz/cli @depanlz/core @depanlz/web-server 
 ```
 :::
 
@@ -40,15 +40,15 @@ $ yarn depanlz analyze -w 3000
 ::: code-group
 
 ```sh [npm]
-$ npm install @depanlz/core @depanlz/web-servrer
+$ npm install @depanlz/core @depanlz/web-server
 ```
 
 ```sh [pnpm]
-$ pnpm add @depanlz/core @depanlz/web-servrer
+$ pnpm add @depanlz/core @depanlz/web-server
 ```
 
 ```sh [yarn]
-$ yarn add @depanlz/core @depanlz/web-servrer 
+$ yarn add @depanlz/core @depanlz/web-server 
 ```
 :::
 

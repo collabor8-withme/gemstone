@@ -100,7 +100,7 @@ $ yarn depanlz analyze -j
 :::
 
 #### `-w`, `--web` [port]
-通过该参数可以通过CLI启动一个web server，同时通过echarts渲染可视化依赖关系图。
+通过该参数可以通过CLI启动一个web server，同时通过echarts渲染可视化依赖关系图。值得注意的是该功能需要依靠`@depanlz/web-server`模块。
 
 ::: code-group
 
