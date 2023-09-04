@@ -4,3 +4,4 @@
 pnpm lint-staged
 pnpm test:run
 pnpm coverage
+git add -A
