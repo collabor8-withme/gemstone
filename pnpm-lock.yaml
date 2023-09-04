@@ -48,8 +48,8 @@ importers:
 
   packages/@depanlz/cli:
     specifiers:
-      '@depanlz/core': workspace:0.0.1-alpha.2
-      '@depanlz/web-server': workspace:0.0.1-alpha.2
+      '@depanlz/core': workspace:0.0.1-alpha.9
+      '@depanlz/web-server': workspace:0.0.1-alpha.9
     devDependencies:
       '@depanlz/core': link:../core
       '@depanlz/web-server': link:../web-server

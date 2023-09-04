@@ -18,6 +18,7 @@ export default defineConfig({
           items: [
             { text: 'What is DepAnlz 📦 ?', link: '/guide/' },
             { text: 'Getting Started', link: '/guide/getting-started' },
+            { text: '开发文档', link: '/guide/other' },
           ]
         }
       ],
