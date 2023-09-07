@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "DepAnlz 📦"
+  name: "Gemstone 💎"
   text: "ToolKit for analyzing NPM dependencies"
   tagline: Create a dependency graph for you.
   image:

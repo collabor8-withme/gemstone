@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "DepAnlz 📦",
-  description: "A CLI for analyzing NPM dependencies",
+  title: "💎",
+  description: "ToolKit for analyzing NPM dependencies",
   themeConfig: {
     logo: "/Collabor8.svg",
     nav: [

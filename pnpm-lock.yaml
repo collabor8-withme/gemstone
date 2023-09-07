@@ -57,6 +57,9 @@ importers:
   packages/@depanlz/core:
     specifiers: {}
 
+  packages/@depanlz/core2:
+    specifiers: {}
+
   packages/@depanlz/web-server:
     specifiers: {}
 
