@@ -1,7 +1,7 @@
 import { defineWorkspace } from 'vitest/config'
 
 export default defineWorkspace([
-  'packages/@depanlz/*',
+  'packages/@gemstone/*',
   {
     test: {
       include: ['tests/**/*.spec.ts'],

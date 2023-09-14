@@ -1,5 +1,5 @@
 {
-    "name": "depanlz",
+    "name": "gemstone",
     "version": "1.0.0-alpha",
     "description": "ToolKit for analyzing NPM dependencies",
     "main": "index.js",

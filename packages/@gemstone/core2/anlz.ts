@@ -2,7 +2,7 @@ import preprocessor from "./hooks/preprocessor";
 import { Config, DepGraph } from "./DepGraph";
 import core from "./hooks/coreprocessor";
 
-class Diamond {
+class GemStone {
     depth: number
     constructor(depth: number) {
         this.depth = depth
@@ -16,7 +16,7 @@ class Diamond {
         return core(config)
     }
 
-    Polishing(callback: (config: Config, depGraph: DepGraph) => any) {
+    polishing(callback: (config: Config, depGraph: DepGraph) => any) {
         const config = this.mining()
         const depGraph = this.carving(config)
         return callback(config, depGraph)
@@ -24,7 +24,7 @@ class Diamond {
 }
 
 export {
-    Diamond
+    GemStone
 };
 
 
